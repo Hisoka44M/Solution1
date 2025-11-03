@@ -19,7 +19,7 @@
             if (b != 0)
                 Console.WriteLine($"Деление: {a} ÷ {b} = {a / b}");
             else
-                Console.WriteLine("Деление на ноль невозможно!");
+                Console.WriteLine("Деление на ноль!");
         }
     }
 }
