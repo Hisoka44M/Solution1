@@ -16,23 +16,10 @@
             Console.WriteLine($"Вычитание: {a} - {b} = {a - b}");
             Console.WriteLine($"Умножение: {a} × {b} = {a * b}");
 
-            // Возведение в степень
-            Console.WriteLine($"Степень: {a} ^ {b} = {Math.Pow(a, b)}");
-
-            // Остаток от деления
-            if (b != 0)
-                Console.WriteLine($"Остаток: {a} % {b} = {a % b}");
-
-            // Квадратный корень
-            if (a >= 0)
-                Console.WriteLine($"√{a} = {Math.Sqrt(a)}");
-
             if (b != 0)
                 Console.WriteLine($"Деление: {a} ÷ {b} = {a / b}");
             else
                 Console.WriteLine("Деление на ноль!");
-
         }
-
     }
 }
